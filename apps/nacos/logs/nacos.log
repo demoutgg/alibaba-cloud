@@ -4,3 +4,9 @@
 
 2021-11-03 00:08:32,321 WARN clearConfigHistory start
 
+2021-11-03 00:18:31,613 INFO [capacityManagement] start correct usage
+
+2021-11-03 00:18:31,622 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-11-03 00:18:32,382 WARN clearConfigHistory start
+
