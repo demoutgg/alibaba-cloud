@@ -1,12 +1,526 @@
-2021-11-03 00:08:31,577 INFO [capacityManagement] start correct usage
+2021-11-05 00:07:40,511 WARN clearConfigHistory start
 
-2021-11-03 00:08:31,593 INFO [capacityManagement] end correct usage, cost: 0s
+2021-11-05 00:07:40,550 INFO [capacityManagement] start correct usage
 
-2021-11-03 00:08:32,321 WARN clearConfigHistory start
+2021-11-05 00:07:40,721 INFO [capacityManagement] end correct usage, cost: 0s
 
-2021-11-03 00:18:31,613 INFO [capacityManagement] start correct usage
+2021-11-05 00:17:40,661 WARN clearConfigHistory start
 
-2021-11-03 00:18:31,622 INFO [capacityManagement] end correct usage, cost: 0s
+2021-11-05 00:17:40,735 INFO [capacityManagement] start correct usage
 
-2021-11-03 00:18:32,382 WARN clearConfigHistory start
+2021-11-05 00:17:40,900 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-11-05 00:27:40,777 WARN clearConfigHistory start
+
+2021-11-05 00:27:40,777 INFO [capacityManagement] start correct usage
+
+2021-11-05 00:27:40,913 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-11-05 00:42:23,263 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2813c39c (Communications link failure
+
+The last packet successfully received from the server was 426,588 milliseconds ago. The last packet sent successfully to the server was 426,603 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 00:42:26,027 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m18s122ms).
+
+2021-11-05 00:43:29,215 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@46db599c (Communications link failure
+
+The last packet successfully received from the server was 1,011,102 milliseconds ago. The last packet sent successfully to the server was 1,011,123 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 00:51:43,334 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m17s309ms).
+
+2021-11-05 00:51:50,753 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5196d2ef (Communications link failure
+
+The last packet successfully received from the server was 432,971 milliseconds ago. The last packet sent successfully to the server was 432,988 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 00:51:57,253 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@472349a (Communications link failure
+
+The last packet successfully received from the server was 573,507 milliseconds ago. The last packet sent successfully to the server was 573,526 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 01:24:58,407 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4c8136bd (Communications link failure
+
+The last packet successfully received from the server was 1,980,976 milliseconds ago. The last packet sent successfully to the server was 1,980,993 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 01:40:36,014 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48m52s681ms).
+
+2021-11-05 01:56:00,228 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@50a957a (Communications link failure
+
+The last packet successfully received from the server was 3,849,278 milliseconds ago. The last packet sent successfully to the server was 3,849,302 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 02:11:32,996 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4a5d08de (Communications link failure
+
+The last packet successfully received from the server was 4,775,512 milliseconds ago. The last packet sent successfully to the server was 4,775,550 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 02:11:33,190 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6635276c (Communications link failure
+
+The last packet successfully received from the server was 1,857,010 milliseconds ago. The last packet sent successfully to the server was 1,857,024 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 03:03:14,310 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7870e3b (Communications link failure
+
+The last packet successfully received from the server was 3,101,089 milliseconds ago. The last packet sent successfully to the server was 3,101,110 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 03:03:14,612 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6f94a800 (Communications link failure
+
+The last packet successfully received from the server was 4,034,078 milliseconds ago. The last packet sent successfully to the server was 4,034,106 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 03:20:13,654 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h39m37s639ms).
+
+2021-11-05 03:52:01,626 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@71031515 (Communications link failure
+
+The last packet successfully received from the server was 2,926,918 milliseconds ago. The last packet sent successfully to the server was 2,926,932 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 04:09:21,855 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@78afde44 (Communications link failure
+
+The last packet successfully received from the server was 3,967,088 milliseconds ago. The last packet sent successfully to the server was 3,967,103 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 04:26:43,777 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2ec7784b (Communications link failure
+
+The last packet successfully received from the server was 2,081,467 milliseconds ago. The last packet sent successfully to the server was 2,081,488 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 04:43:31,729 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3823451b (Communications link failure
+
+The last packet successfully received from the server was 3,089,111 milliseconds ago. The last packet sent successfully to the server was 3,089,131 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 04:43:34,916 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h23m21s262ms).
+
+2021-11-05 05:01:11,394 INFO [capacityManagement] start correct usage
+
+2021-11-05 05:01:11,429 WARN clearConfigHistory start
+
+2021-11-05 05:18:06,318 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6bbdb006 (Communications link failure
+
+The last packet successfully received from the server was 3,082,246 milliseconds ago. The last packet sent successfully to the server was 3,082,284 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 05:18:06,546 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4084f83a (Communications link failure
+
+The last packet successfully received from the server was 3,082,268 milliseconds ago. The last packet sent successfully to the server was 3,082,287 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 05:34:28,613 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@414c290d (Communications link failure
+
+The last packet successfully received from the server was 1,993,005 milliseconds ago. The last packet sent successfully to the server was 1,993,024 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 06:06:56,615 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@41cf09d9 (Communications link failure
+
+The last packet successfully received from the server was 2,930,078 milliseconds ago. The last packet sent successfully to the server was 2,930,095 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 06:23:46,561 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h40m11s646ms).
+
+2021-11-05 06:23:47,585 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1abc973c (Communications link failure
+
+The last packet successfully received from the server was 2,958,696 milliseconds ago. The last packet sent successfully to the server was 2,958,715 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 06:39:49,952 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@e47c168 (Communications link failure
+
+The last packet successfully received from the server was 1,973,091 milliseconds ago. The last packet sent successfully to the server was 1,973,135 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 06:39:58,932 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@380f368b (Communications link failure
+
+The last packet successfully received from the server was 1,981,885 milliseconds ago. The last packet sent successfully to the server was 1,981,905 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 06:40:14,200 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m27s639ms).
+
+2021-11-05 07:13:22,850 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@9554ea4 (Communications link failure
+
+The last packet successfully received from the server was 1,881,535 milliseconds ago. The last packet sent successfully to the server was 1,881,554 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 07:13:23,500 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@e41c61a (Communications link failure
+
+The last packet successfully received from the server was 2,013,114 milliseconds ago. The last packet sent successfully to the server was 2,013,130 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 07:13:24,285 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=31m40s61ms).
+
+2021-11-05 07:30:19,680 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5afb8c29 (Communications link failure
+
+The last packet successfully received from the server was 3,020,468 milliseconds ago. The last packet sent successfully to the server was 3,020,489 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 07:48:21,021 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7cb671cb (Communications link failure
+
+The last packet successfully received from the server was 2,095,769 milliseconds ago. The last packet sent successfully to the server was 2,095,789 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 07:50:22,477 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@77497daa (Communications link failure
+
+The last packet successfully received from the server was 1,202,506 milliseconds ago. The last packet sent successfully to the server was 1,202,529 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 07:50:48,723 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m24s439ms).
+
+2021-11-05 07:52:12,836 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m24s112ms).
+
+2021-11-05 08:08:20,525 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@bf2f954 (Communications link failure
+
+The last packet successfully received from the server was 973,874 milliseconds ago. The last packet sent successfully to the server was 973,892 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 08:08:25,579 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7b82dcf4 (Communications link failure
+
+The last packet successfully received from the server was 1,082,912 milliseconds ago. The last packet sent successfully to the server was 1,082,925 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 08:25:19,999 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m7s162ms).
+
+2021-11-05 08:36:21,625 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m1s628ms).
+
+2021-11-05 08:41:24,643 WARN clearConfigHistory start
+
+2021-11-05 08:51:24,715 WARN clearConfigHistory start
+
+2021-11-05 09:01:24,900 WARN clearConfigHistory start
+
+2021-11-05 09:11:25,078 WARN clearConfigHistory start
+
+2021-11-05 09:21:25,176 WARN clearConfigHistory start
+
+2021-11-05 09:31:25,152 WARN clearConfigHistory start
+
+2021-11-05 09:41:25,243 WARN clearConfigHistory start
+
+2021-11-05 09:51:25,328 WARN clearConfigHistory start
+
+2021-11-05 10:01:25,412 WARN clearConfigHistory start
+
+2021-11-05 10:11:25,499 WARN clearConfigHistory start
+
+2021-11-05 10:21:25,584 WARN clearConfigHistory start
+
+2021-11-05 10:31:25,658 WARN clearConfigHistory start
+
+2021-11-05 10:41:25,717 WARN clearConfigHistory start
+
+2021-11-05 10:51:25,798 WARN clearConfigHistory start
+
+2021-11-05 10:57:11,600 WARN [HttpClientBeanHolder] Start destroying common HttpClient
+
+2021-11-05 10:57:11,616 WARN [ConfigServer-HttpClientManager] Start destroying NacosRestTemplate
+
+2021-11-05 10:57:11,600 WARN [WatchFileCenter] start close
+
+2021-11-05 10:57:11,627 WARN [ThreadPoolManager] Start destroying ThreadPool
+
+2021-11-05 10:57:11,633 WARN [NotifyCenter] Start destroying Publisher
+
+2021-11-05 10:57:11,687 WARN [NotifyCenter] Destruction of the end
+
+2021-11-05 10:57:11,742 WARN [HttpClientBeanHolder] Destruction of the end
+
+2021-11-05 10:57:11,650 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /Users/liyuxiong/works/workSpace/studys/alibaba-cloud/apps/nacos/conf
+
+2021-11-05 10:57:11,743 WARN [ConfigServer-HttpClientManager] Destruction of the end
+
+2021-11-05 10:57:11,888 WARN [WatchFileCenter] already closed
+
+2021-11-05 10:57:12,141 INFO Shutting down ExecutorService 'taskScheduler'
+
+2021-11-05 10:57:12,184 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+
+2021-11-05 11:12:17,628 INFO Starting Nacos v1.4.2 on liyuxiongdeMacBook-Pro.local with PID 1607 (/Users/liyuxiong/works/workSpace/studys/alibaba-cloud/apps/nacos/target/nacos-server.jar started by liyuxiong in /Users/liyuxiong/works/workSpace/studys/alibaba-cloud/apps/nacos/bin)
+
+2021-11-05 11:12:17,629 INFO The following profiles are active: standalone
+
+2021-11-05 11:12:23,808 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@53251a66' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2021-11-05 11:12:23,856 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2021-11-05 11:12:24,815 INFO Tomcat initialized with port(s): 8848 (http)
+
+2021-11-05 11:12:24,947 INFO Starting service [Tomcat]
+
+2021-11-05 11:12:24,948 INFO Starting Servlet engine: [Apache Tomcat/9.0.38]
+
+2021-11-05 11:12:25,536 INFO At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+
+2021-11-05 11:12:25,605 INFO Initializing Spring embedded WebApplicationContext
+
+2021-11-05 11:12:25,606 INFO Root WebApplicationContext: initialization completed in 7772 ms
+
+2021-11-05 11:12:26,315 INFO HikariPool-1 - Starting...
+
+2021-11-05 11:12:26,847 INFO HikariPool-1 - Start completed.
+
+2021-11-05 11:12:27,665 INFO Nacos-related cluster resource initialization
+
+2021-11-05 11:12:27,688 INFO The cluster resource is initialized
+
+2021-11-05 11:12:28,847 INFO Reflections took 82 ms to scan 1 urls, producing 4 keys and 6 values 
+
+2021-11-05 11:12:28,915 INFO Reflections took 24 ms to scan 1 urls, producing 6 keys and 26 values 
+
+2021-11-05 11:12:28,955 INFO Reflections took 10 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2021-11-05 11:12:28,975 INFO Reflections took 8 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2021-11-05 11:12:30,803 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2021-11-05 11:12:31,261 INFO Adding welcome page: class path resource [static/index.html]
+
+2021-11-05 11:12:32,466 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2021-11-05 11:12:32,545 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@615f972, org.springframework.security.web.context.SecurityContextPersistenceFilter@5bd1ceca, org.springframework.security.web.header.HeaderWriterFilter@1a15b789, org.springframework.security.web.csrf.CsrfFilter@649f2009, org.springframework.security.web.authentication.logout.LogoutFilter@2db2cd5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@499b2a5c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@241a53ef, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@285f09de, org.springframework.security.web.session.SessionManagementFilter@51650883, org.springframework.security.web.access.ExceptionTranslationFilter@69adf72c]
+
+2021-11-05 11:12:32,768 INFO Initializing ExecutorService 'taskScheduler'
+
+2021-11-05 11:12:32,840 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2021-11-05 11:12:33,197 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2021-11-05 11:12:33,212 INFO Started Nacos in 17.767 seconds (JVM running for 18.839)
+
+2021-11-05 11:12:33,218 INFO Nacos started successfully in stand alone mode. use external storage
+
+2021-11-05 11:12:34,310 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2021-11-05 11:12:34,310 INFO Initializing Servlet 'dispatcherServlet'
+
+2021-11-05 11:12:34,345 INFO Completed initialization in 35 ms
+
+2021-11-05 11:22:29,482 INFO [capacityManagement] start correct usage
+
+2021-11-05 11:22:29,621 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-11-05 11:22:30,029 WARN clearConfigHistory start
+
+2021-11-05 11:39:17,743 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m50s661ms).
+
+2021-11-05 11:56:45,621 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@aadcb03 (Communications link failure
+
+The last packet successfully received from the server was 1,748,400 milliseconds ago. The last packet sent successfully to the server was 1,748,452 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 11:56:53,239 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1061b528 (Communications link failure
+
+The last packet successfully received from the server was 1,746,160 milliseconds ago. The last packet sent successfully to the server was 1,746,218 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 11:56:55,655 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@738b521b (Communications link failure
+
+The last packet successfully received from the server was 1,057,625 milliseconds ago. The last packet sent successfully to the server was 1,057,647 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 11:57:05,687 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@179a7aba (Communications link failure
+
+The last packet successfully received from the server was 1,067,411 milliseconds ago. The last packet sent successfully to the server was 1,067,430 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 12:02:47,453 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m29s711ms).
+
+2021-11-05 12:02:57,627 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4661f4a1 (Communications link failure
+
+The last packet successfully received from the server was 351,709 milliseconds ago. The last packet sent successfully to the server was 351,737 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 12:03:05,130 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3ec04ed6 (Communications link failure
+
+The last packet successfully received from the server was 369,231 milliseconds ago. The last packet sent successfully to the server was 369,255 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 12:03:07,654 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@65ebd205 (Communications link failure
+
+The last packet successfully received from the server was 361,672 milliseconds ago. The last packet sent successfully to the server was 361,700 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 12:06:50,017 INFO [capacityManagement] start correct usage
+
+2021-11-05 12:06:50,343 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-11-05 12:06:50,469 WARN clearConfigHistory start
+
+2021-11-05 12:20:23,305 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m35s693ms).
+
+2021-11-05 12:20:38,251 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1a17dbbf (Communications link failure
+
+The last packet successfully received from the server was 565,709 milliseconds ago. The last packet sent successfully to the server was 565,728 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 12:20:41,049 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@b46c0a2 (Communications link failure
+
+The last packet successfully received from the server was 830,708 milliseconds ago. The last packet sent successfully to the server was 830,734 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 12:25:56,059 INFO [capacityManagement] start correct usage
+
+2021-11-05 12:25:56,156 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-11-05 12:25:56,334 WARN clearConfigHistory start
+
+2021-11-05 12:31:27,478 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m34s57ms).
+
+2021-11-05 12:38:45,391 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m47s856ms).
+
+2021-11-05 12:38:50,030 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7b8586a7 (Communications link failure
+
+The last packet successfully received from the server was 157,864 milliseconds ago. The last packet sent successfully to the server was 157,886 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 12:38:52,545 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3e1a1e54 (Communications link failure
+
+The last packet successfully received from the server was 1,093,857 milliseconds ago. The last packet sent successfully to the server was 1,093,877 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 12:39:18,057 INFO [capacityManagement] start correct usage
+
+2021-11-05 12:39:18,266 WARN clearConfigHistory start
+
+2021-11-05 12:39:18,407 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-11-05 12:59:55,012 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m9s609ms).
+
+2021-11-05 12:59:58,412 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@f9ce891 (Communications link failure
+
+The last packet successfully received from the server was 1,197,173 milliseconds ago. The last packet sent successfully to the server was 1,197,202 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 13:00:00,865 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5ef49894 (Communications link failure
+
+The last packet successfully received from the server was 1,242,439 milliseconds ago. The last packet sent successfully to the server was 1,242,500 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 13:00:08,472 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@27078ec7 (Communications link failure
+
+The last packet successfully received from the server was 1,278,181 milliseconds ago. The last packet sent successfully to the server was 1,278,202 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 13:08:58,007 INFO [capacityManagement] start correct usage
+
+2021-11-05 13:08:58,016 WARN clearConfigHistory start
+
+2021-11-05 13:08:58,097 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-11-05 13:18:58,112 WARN clearConfigHistory start
+
+2021-11-05 13:18:58,113 INFO [capacityManagement] start correct usage
+
+2021-11-05 13:18:58,207 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-11-05 13:28:58,200 WARN clearConfigHistory start
+
+2021-11-05 13:28:58,221 INFO [capacityManagement] start correct usage
+
+2021-11-05 13:28:58,299 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-11-05 13:38:58,340 WARN clearConfigHistory start
+
+2021-11-05 13:38:58,350 INFO [capacityManagement] start correct usage
+
+2021-11-05 13:38:58,437 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-11-05 13:47:06,452 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5748ebed (Communications link failure
+
+The last packet successfully received from the server was 453,907 milliseconds ago. The last packet sent successfully to the server was 453,927 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 13:47:08,105 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@28c0b606 (Communications link failure
+
+The last packet successfully received from the server was 460,843 milliseconds ago. The last packet sent successfully to the server was 460,865 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 14:02:41,211 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m15s728ms).
+
+2021-11-05 14:10:22,763 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m41s550ms).
+
+2021-11-05 14:18:55,694 WARN clearConfigHistory start
+
+2021-11-05 14:18:55,698 INFO [capacityManagement] start correct usage
+
+2021-11-05 14:18:55,791 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-11-05 14:28:55,845 WARN clearConfigHistory start
+
+2021-11-05 14:28:55,851 INFO [capacityManagement] start correct usage
+
+2021-11-05 14:28:55,946 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-11-05 14:38:55,944 WARN clearConfigHistory start
+
+2021-11-05 14:38:55,953 INFO [capacityManagement] start correct usage
+
+2021-11-05 14:38:56,065 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-11-05 14:48:55,996 WARN clearConfigHistory start
+
+2021-11-05 14:48:56,014 INFO [capacityManagement] start correct usage
+
+2021-11-05 14:48:56,097 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-11-05 14:58:56,093 WARN clearConfigHistory start
+
+2021-11-05 14:58:56,097 INFO [capacityManagement] start correct usage
+
+2021-11-05 14:58:56,190 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-11-05 15:08:56,178 WARN clearConfigHistory start
+
+2021-11-05 15:08:56,186 INFO [capacityManagement] start correct usage
+
+2021-11-05 15:08:56,327 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-11-05 15:18:56,409 WARN clearConfigHistory start
+
+2021-11-05 15:18:56,434 INFO [capacityManagement] start correct usage
+
+2021-11-05 15:18:56,534 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-11-05 15:28:56,512 WARN clearConfigHistory start
+
+2021-11-05 15:28:56,544 INFO [capacityManagement] start correct usage
+
+2021-11-05 15:28:56,660 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-11-05 15:38:56,633 WARN clearConfigHistory start
+
+2021-11-05 15:38:56,670 INFO [capacityManagement] start correct usage
+
+2021-11-05 15:38:56,765 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-11-05 15:48:56,812 WARN clearConfigHistory start
+
+2021-11-05 15:48:56,823 INFO [capacityManagement] start correct usage
+
+2021-11-05 15:48:56,906 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-11-05 16:02:20,749 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m26s783ms).
+
+2021-11-05 16:02:34,720 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@44c32217 (Communications link failure
+
+The last packet successfully received from the server was 436,893 milliseconds ago. The last packet sent successfully to the server was 436,930 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 16:02:38,131 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@37b4fa37 (Communications link failure
+
+The last packet successfully received from the server was 821,222 milliseconds ago. The last packet sent successfully to the server was 821,235 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 16:19:18,500 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@714de73e (Communications link failure
+
+The last packet successfully received from the server was 983,110 milliseconds ago. The last packet sent successfully to the server was 983,134 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 16:19:21,507 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@12c8cc7e (Communications link failure
+
+The last packet successfully received from the server was 1,006,324 milliseconds ago. The last packet sent successfully to the server was 1,006,341 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 16:19:23,882 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m33s101ms).
+
+2021-11-05 16:19:28,538 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6d23ae88 (Communications link failure
+
+The last packet successfully received from the server was 1,010,208 milliseconds ago. The last packet sent successfully to the server was 1,010,226 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 16:54:11,514 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4baf9ecf (Communications link failure
+
+The last packet successfully received from the server was 2,082,897 milliseconds ago. The last packet sent successfully to the server was 2,082,919 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 16:54:13,470 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@72fcbaf0 (Communications link failure
+
+The last packet successfully received from the server was 2,094,520 milliseconds ago. The last packet sent successfully to the server was 2,094,538 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 16:54:18,710 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=34m54s829ms).
+
+2021-11-05 16:54:21,562 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@44d356 (Communications link failure
+
+The last packet successfully received from the server was 2,099,816 milliseconds ago. The last packet sent successfully to the server was 2,099,836 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2021-11-05 16:56:21,583 WARN clearConfigHistory start
+
+2021-11-05 16:56:21,619 INFO [capacityManagement] start correct usage
+
+2021-11-05 16:56:21,725 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-11-05 17:05:22,092 WARN [HttpClientBeanHolder] Start destroying common HttpClient
+
+2021-11-05 17:05:22,096 WARN [ConfigServer-HttpClientManager] Start destroying NacosRestTemplate
+
+2021-11-05 17:05:22,091 WARN [NotifyCenter] Start destroying Publisher
+
+2021-11-05 17:05:22,195 WARN [NotifyCenter] Destruction of the end
+
+2021-11-05 17:05:22,089 WARN [WatchFileCenter] start close
+
+2021-11-05 17:05:22,223 WARN [ConfigServer-HttpClientManager] Destruction of the end
+
+2021-11-05 17:05:22,233 WARN [HttpClientBeanHolder] Destruction of the end
+
+2021-11-05 17:05:22,239 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /Users/liyuxiong/works/workSpace/studys/alibaba-cloud/apps/nacos/conf
+
+2021-11-05 17:05:22,093 WARN [ThreadPoolManager] Start destroying ThreadPool
+
+2021-11-05 17:05:22,284 WARN [WatchFileCenter] already closed
+
+2021-11-05 17:05:22,459 INFO Shutting down ExecutorService 'taskScheduler'
+
+2021-11-05 17:05:22,503 INFO Shutting down ExecutorService 'applicationTaskExecutor'
 

@@ -5,8 +5,8 @@
    ,--,:  : |                                           Nacos 1.4.2
 ,`--.'`|  ' :                       ,---.               Running in stand alone mode, All function modules
 |   :  :  | |                      '   ,'\   .--.--.    Port: 8848
-:   |   \ | :  ,--.--.     ,---.  /   /   | /  /    '   Pid: 2877
-|   : '  '; | /       \   /     \.   ; ,. :|  :  /`./   Console: http://192.168.1.6:8848/nacos/index.html
+:   |   \ | :  ,--.--.     ,---.  /   /   | /  /    '   Pid: 1607
+|   : '  '; | /       \   /     \.   ; ,. :|  :  /`./   Console: http://192.168.57.103:8848/nacos/index.html
 '   ' ;.    ;.--.  .-. | /    / ''   | |: :|  :  ;_
 |   | | \   | \__\/: . ..    ' / '   | .; : \  \    `.      https://nacos.io
 '   : |  ; .' ," .--.; |'   ; :__|   :    |  `----.   \
@@ -15,31 +15,47 @@
 ;   |.'     |  ,     .-./\   \  /            `--'---'
 '---'        `--`---'     `----'
 
-2021-11-02 20:48:24,337 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5026735c' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-05 11:12:23,808 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@53251a66' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 
-2021-11-02 20:48:24,372 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-05 11:12:23,856 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 
-2021-11-02 20:48:25,320 INFO Tomcat initialized with port(s): 8848 (http)
+2021-11-05 11:12:24,815 INFO Tomcat initialized with port(s): 8848 (http)
 
-2021-11-02 20:48:26,018 INFO Root WebApplicationContext: initialization completed in 7681 ms
+2021-11-05 11:12:25,606 INFO Root WebApplicationContext: initialization completed in 7772 ms
 
-2021-11-02 20:48:32,473 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-05 11:12:30,803 INFO Initializing ExecutorService 'applicationTaskExecutor'
 
-2021-11-02 20:48:32,838 INFO Adding welcome page: class path resource [static/index.html]
+2021-11-05 11:12:31,261 INFO Adding welcome page: class path resource [static/index.html]
 
-2021-11-02 20:48:33,737 INFO Creating filter chain: Ant [pattern='/**'], []
+2021-11-05 11:12:32,466 INFO Creating filter chain: Ant [pattern='/**'], []
 
-2021-11-02 20:48:33,826 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7957dc72, org.springframework.security.web.context.SecurityContextPersistenceFilter@750fe12e, org.springframework.security.web.header.HeaderWriterFilter@4362d7df, org.springframework.security.web.csrf.CsrfFilter@31500940, org.springframework.security.web.authentication.logout.LogoutFilter@7544a1e4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3e587920, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@63fd4873, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6ab72419, org.springframework.security.web.session.SessionManagementFilter@1c25b8a7, org.springframework.security.web.access.ExceptionTranslationFilter@48e64352]
+2021-11-05 11:12:32,545 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@615f972, org.springframework.security.web.context.SecurityContextPersistenceFilter@5bd1ceca, org.springframework.security.web.header.HeaderWriterFilter@1a15b789, org.springframework.security.web.csrf.CsrfFilter@649f2009, org.springframework.security.web.authentication.logout.LogoutFilter@2db2cd5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@499b2a5c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@241a53ef, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@285f09de, org.springframework.security.web.session.SessionManagementFilter@51650883, org.springframework.security.web.access.ExceptionTranslationFilter@69adf72c]
 
-2021-11-02 20:48:34,095 INFO Initializing ExecutorService 'taskScheduler'
+2021-11-05 11:12:32,768 INFO Initializing ExecutorService 'taskScheduler'
 
-2021-11-02 20:48:34,150 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-11-05 11:12:32,840 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
 
-2021-11-02 20:48:34,425 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+2021-11-05 11:12:33,197 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
 
-2021-11-02 20:48:34,432 INFO Nacos started successfully in stand alone mode. use embedded storage
+2021-11-05 11:12:33,218 INFO Nacos started successfully in stand alone mode. use external storage
 
-2021-11-02 20:49:18,890 INFO Initializing Servlet 'dispatcherServlet'
+2021-11-05 11:12:34,310 INFO Initializing Servlet 'dispatcherServlet'
 
-2021-11-02 20:49:18,934 INFO Completed initialization in 43 ms
+2021-11-05 11:12:34,345 INFO Completed initialization in 35 ms
+
+2021-11-05 17:05:22,091 WARN [NotifyCenter] Start destroying Publisher
+
+2021-11-05 17:05:22,195 WARN [NotifyCenter] Destruction of the end
+
+2021-11-05 17:05:22,089 WARN [WatchFileCenter] start close
+
+2021-11-05 17:05:22,093 WARN [ThreadPoolManager] Start destroying ThreadPool
+
+2021-11-05 17:05:22,239 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /Users/liyuxiong/works/workSpace/studys/alibaba-cloud/apps/nacos/conf
+
+2021-11-05 17:05:22,284 WARN [WatchFileCenter] already closed
+
+2021-11-05 17:05:22,459 INFO Shutting down ExecutorService 'taskScheduler'
+
+2021-11-05 17:05:22,503 INFO Shutting down ExecutorService 'applicationTaskExecutor'
 

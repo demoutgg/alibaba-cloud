@@ -1,46 +1,36 @@
-2021-11-02 20:48:18,174 INFO notifyConnectTimeout:200
+2021-11-05 10:42:06,522 WARN Get client info from 192.168.57.101:8848 with exception: Connection refused (Connection refused)
 
-2021-11-02 20:48:18,184 INFO notifySocketTimeout:8000
+2021-11-05 11:12:17,585 INFO notifyConnectTimeout:200
 
-2021-11-02 20:48:18,185 INFO isHealthCheck:true
+2021-11-05 11:12:17,597 INFO notifySocketTimeout:8000
 
-2021-11-02 20:48:18,185 INFO maxHealthCheckFailCount:12
+2021-11-05 11:12:17,599 INFO isHealthCheck:true
 
-2021-11-02 20:48:18,186 INFO maxContent:10485760
+2021-11-05 11:12:17,599 INFO maxHealthCheckFailCount:12
 
-2021-11-02 20:48:26,636 INFO use local db service for init
+2021-11-05 11:12:17,599 INFO maxContent:10485760
 
-2021-11-02 20:48:28,192 WARN Lexical error at line 4, column 66.  Encountered: <EOF> after : "".
+2021-11-05 11:12:17,602 INFO spring.datasource.platform:mysql
 
-2021-11-02 20:48:28,222 WARN Syntax error: Encountered "*" at line 1, column 1.
+2021-11-05 11:12:29,711 WARN DumpService start
 
-2021-11-02 20:48:28,985 WARN Lexical error at line 4, column 13.  Encountered: "`" (96), after : "".
+2021-11-05 11:12:29,712 INFO start clear all config-info.
 
-2021-11-02 20:48:28,987 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+2021-11-05 11:12:29,713 WARN clear all config-info failed.
 
-2021-11-02 20:48:28,988 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+2021-11-05 11:12:29,732 INFO clear all config-info-tenant success.
 
-2021-11-02 20:48:28,988 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+2021-11-05 11:12:29,933 INFO [all-dump] 162 / 162
 
-2021-11-02 20:48:28,988 INFO use StandaloneDatabaseOperateImpl
+2021-11-05 11:12:29,934 INFO start clear all config-info-beta.
 
-2021-11-02 20:48:31,235 WARN DumpService start
+2021-11-05 11:12:29,934 WARN clear all config-info-beta failed.
 
-2021-11-02 20:48:31,240 INFO start clear all config-info.
+2021-11-05 11:12:29,934 WARN clear all config-info-beta-tenant failed.
 
-2021-11-02 20:48:31,241 WARN clear all config-info failed.
+2021-11-05 11:12:29,953 INFO start clear all config-info-tag.
 
-2021-11-02 20:48:31,242 WARN clear all config-info-tenant failed.
+2021-11-05 11:12:29,954 WARN clear all config-info-tag failed.
 
-2021-11-02 20:48:31,533 INFO start clear all config-info-beta.
-
-2021-11-02 20:48:31,537 WARN clear all config-info-beta failed.
-
-2021-11-02 20:48:31,538 WARN clear all config-info-beta-tenant failed.
-
-2021-11-02 20:48:31,591 INFO start clear all config-info-tag.
-
-2021-11-02 20:48:31,592 WARN clear all config-info-tag failed.
-
-2021-11-02 20:48:31,592 WARN clear all config-info-tag-tenant failed.
+2021-11-05 11:12:29,954 WARN clear all config-info-tag-tenant failed.
 

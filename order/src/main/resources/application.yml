@@ -6,9 +6,9 @@ spring:
     name: order-service
   datasource:
     username: zhong
-    data-password: zjr0418!
+    password: zjr0418!
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://rm-bp100kx6azg1h7z2f6o.mysql.rds.aliyuncs.com:3306/springboot?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    url: jdbc:mysql://rm-bp100kx6azg1h7z2f6o.mysql.rds.aliyuncs.com:3306/order_seata_lyx?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
     #   指定数据源的类型
     type: com.alibaba.druid.pool.DruidDataSource
     #    schema:
@@ -31,17 +31,48 @@ spring:
     #useGlobalDataSourceStat: true
     #connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
 
+  #nacos 配置
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        username: nacos
+        password: nanos
+        ephemeral: false
+        namespace: 9c1f94ca-8cd4-49d8-b929-e3970c15bad3
+          #service 默认application.name 服务名
+          #cluster-name:集群名称  nacos多集群使用
+          #namespace: public ＃相同特征所服务进行归券分组節理
+          #ephemeral:false ＃默认=true（临时实例）当服务宕机 检测不到心跳 就会将实例剔联掉 #永久实例哪伯宕机了也不会删除实例 当服务宏加 水远不会剔除掉
+          #group的相同特征的服务进行归类分组管理
+        #weight :通常结合负载均衡策略，权重越高分的流量就越大
+        #metadata: version=1 可以结合元数据进行拓展
 
 #mybatis 配置
 mybatis:
-  mapper-locations: classpath:mapping/*Mapper.xml
+  mapper-locations: classpath*:mapper/*.xml
   type-aliases-package: com.demou.study.entity
 
-#showSql
+#spring 日志级别默认为info 修改feign的日志级别
 logging:
   level:
-    com:
-      example:
-        mapper: debug
+    com.demou.study.config: debug
 
-
+seata:
+  registry:
+    type: nacos
+    nacos:
+      server-addr: 127.0.0.1:8848
+      username: nacos
+      password: nacos
+      group: SEATA_GROUP
+      namespace: 9c1f94ca-8cd4-49d8-b929-e3970c15bad3
+  config:
+    type: nacos
+    nacos:
+      namespace: 9c1f94ca-8cd4-49d8-b929-e3970c15bad3
+      server-addr: 127.0.0.1:8848
+      username: nacos
+      password: nacos
+      group: SEATA_GROUP
+  tx-service-group: demou
