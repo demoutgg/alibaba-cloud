@@ -1,0 +1,162 @@
+2021-11-05 10:42:40,199 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [192.168.57.103:8091:unknown:default_1.0_true_false_default]
+
+2021-11-05 10:42:40,204 INFO [IP-UPDATED] namespace: 9c1f94ca-8cd4-49d8-b929-e3970c15bad3, service: SEATA_GROUP@@seata-server, ips: 192.168.57.103:8091_true,
+
+2021-11-05 10:48:59,567 INFO [IP-UPDATED] namespace: 9c1f94ca-8cd4-49d8-b929-e3970c15bad3, service: DEFAULT_GROUP@@stock-service, ips: 192.168.57.101:8020_false,
+
+2021-11-05 10:56:50,816 INFO SEATA_GROUP@@seata-server {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [192.168.57.103:8091:unknown:default_1.0_true_false_default]
+
+2021-11-05 10:56:50,818 INFO [IP-UPDATED] namespace: 9c1f94ca-8cd4-49d8-b929-e3970c15bad3, service: SEATA_GROUP@@seata-server, ips: 
+
+2021-11-05 11:12:29,430 INFO DEFAULT_GROUP@@stock-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.57.101:8020:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-11-05 11:12:29,441 INFO [IP-UPDATED] namespace: 9c1f94ca-8cd4-49d8-b929-e3970c15bad3, service: DEFAULT_GROUP@@stock-service, ips: 192.168.57.101:8020_true,
+
+2021-11-05 11:12:29,460 INFO DEFAULT_GROUP@@stock-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.57.101:8020:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-11-05 11:12:29,460 INFO [IP-UPDATED] namespace: order-service, service: DEFAULT_GROUP@@stock-service, ips: 192.168.57.101:8020_true,
+
+2021-11-05 11:12:29,461 INFO DEFAULT_GROUP@@order-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.57.101:8010:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-11-05 11:12:29,461 INFO [IP-UPDATED] namespace: 9c1f94ca-8cd4-49d8-b929-e3970c15bad3, service: DEFAULT_GROUP@@order-service, ips: 192.168.57.101:8010_true,
+
+2021-11-05 11:12:29,462 INFO DEFAULT_GROUP@@stock-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.57.101:8020:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-11-05 11:12:29,462 INFO [IP-UPDATED] namespace: stock-service, service: DEFAULT_GROUP@@stock-service, ips: 192.168.57.101:8020_true,
+
+2021-11-05 11:12:32,561 INFO serviceName: DEFAULT_GROUP@@stock-service {POS} {IP-DISABLED} invalid-now: 192.168.57.101:8020@DEFAULT, region: unknown, msg: tcp:unable2connect:Connection refused
+
+2021-11-05 11:12:32,561 INFO serviceName: DEFAULT_GROUP@@order-service {POS} {IP-DISABLED} invalid-now: 192.168.57.101:8010@DEFAULT, region: unknown, msg: tcp:unable2connect:Connection refused
+
+2021-11-05 11:12:33,789 INFO serviceName: DEFAULT_GROUP@@stock-service {POS} {IP-DISABLED} invalid-now: 192.168.57.101:8020@DEFAULT, region: unknown, msg: tcp:unable2connect:Connection refused
+
+2021-11-05 11:12:35,906 INFO serviceName: DEFAULT_GROUP@@stock-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.57.101:8020@DEFAULT in 1, msg: tcp:timeout
+
+2021-11-05 11:12:38,967 INFO serviceName: DEFAULT_GROUP@@stock-service {POS} {IP-DISABLED} invalid-now: 192.168.57.101:8020@DEFAULT, region: unknown, msg: tcp:unable2connect:Connection refused
+
+2021-11-05 11:13:00,135 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [192.168.57.103:8091:unknown:default_1.0_true_false_default]
+
+2021-11-05 11:13:00,136 INFO [IP-UPDATED] namespace: 9c1f94ca-8cd4-49d8-b929-e3970c15bad3, service: SEATA_GROUP@@seata-server, ips: 192.168.57.103:8091_true,
+
+2021-11-05 11:13:25,317 INFO DEFAULT_GROUP@@stock-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.57.103:8020:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-11-05 11:13:25,317 INFO [IP-UPDATED] namespace: 9c1f94ca-8cd4-49d8-b929-e3970c15bad3, service: DEFAULT_GROUP@@stock-service, ips: 192.168.57.103:8020_true,192.168.57.101:8020_false,
+
+2021-11-05 11:13:27,235 INFO serviceName: DEFAULT_GROUP@@stock-service {OTHER} {IP-ENABLED} pre-valid: 192.168.57.103:8020@DEFAULT in 1, msg: tcp:ok+
+
+2021-11-05 11:13:32,233 INFO serviceName: DEFAULT_GROUP@@stock-service {OTHER} {IP-ENABLED} pre-valid: 192.168.57.103:8020@DEFAULT in 2, msg: tcp:ok+
+
+2021-11-05 11:13:36,930 INFO serviceName: DEFAULT_GROUP@@stock-service {POS} {IP-ENABLED} valid: 192.168.57.103:8020@DEFAULT, region: unknown, msg: tcp:ok+
+
+2021-11-05 11:15:54,322 INFO [IP-UPDATED] namespace: 9c1f94ca-8cd4-49d8-b929-e3970c15bad3, service: DEFAULT_GROUP@@stock-service, ips: 192.168.57.103:8020_true,192.168.57.101:8020_false,
+
+2021-11-05 11:15:56,489 INFO serviceName: DEFAULT_GROUP@@stock-service {POS} {IP-DISABLED} invalid-now: 192.168.57.103:8020@DEFAULT, region: unknown, msg: tcp:unable2connect:Connection refused
+
+2021-11-05 11:16:07,692 INFO [IP-UPDATED] namespace: 9c1f94ca-8cd4-49d8-b929-e3970c15bad3, service: DEFAULT_GROUP@@stock-service, ips: 192.168.57.103:8020_false,192.168.57.101:8020_false,
+
+2021-11-05 11:16:12,375 INFO serviceName: DEFAULT_GROUP@@stock-service {OTHER} {IP-ENABLED} pre-valid: 192.168.57.103:8020@DEFAULT in 1, msg: tcp:ok+
+
+2021-11-05 11:16:17,382 INFO serviceName: DEFAULT_GROUP@@stock-service {OTHER} {IP-ENABLED} pre-valid: 192.168.57.103:8020@DEFAULT in 2, msg: tcp:ok+
+
+2021-11-05 11:16:22,397 INFO serviceName: DEFAULT_GROUP@@stock-service {POS} {IP-ENABLED} valid: 192.168.57.103:8020@DEFAULT, region: unknown, msg: tcp:ok+
+
+2021-11-05 11:17:12,865 INFO [IP-UPDATED] namespace: 9c1f94ca-8cd4-49d8-b929-e3970c15bad3, service: DEFAULT_GROUP@@stock-service, ips: 192.168.57.103:8020_true,192.168.57.101:8020_false,
+
+2021-11-05 11:17:12,950 INFO serviceName: DEFAULT_GROUP@@stock-service {POS} {IP-DISABLED} invalid-now: 192.168.57.103:8020@DEFAULT, region: unknown, msg: tcp:unable2connect:Connection refused
+
+2021-11-05 11:17:27,347 INFO [IP-UPDATED] namespace: 9c1f94ca-8cd4-49d8-b929-e3970c15bad3, service: DEFAULT_GROUP@@stock-service, ips: 192.168.57.103:8020_false,192.168.57.101:8020_false,
+
+2021-11-05 11:17:28,555 INFO serviceName: DEFAULT_GROUP@@stock-service {OTHER} {IP-ENABLED} pre-valid: 192.168.57.103:8020@DEFAULT in 1, msg: tcp:ok+
+
+2021-11-05 11:17:33,343 INFO serviceName: DEFAULT_GROUP@@stock-service {OTHER} {IP-ENABLED} pre-valid: 192.168.57.103:8020@DEFAULT in 2, msg: tcp:ok+
+
+2021-11-05 11:17:37,291 INFO serviceName: DEFAULT_GROUP@@stock-service {POS} {IP-ENABLED} valid: 192.168.57.103:8020@DEFAULT, region: unknown, msg: tcp:ok+
+
+2021-11-05 11:23:34,715 INFO [IP-UPDATED] namespace: 9c1f94ca-8cd4-49d8-b929-e3970c15bad3, service: DEFAULT_GROUP@@stock-service, ips: 192.168.57.103:8020_true,192.168.57.101:8020_false,
+
+2021-11-05 11:23:35,134 INFO serviceName: DEFAULT_GROUP@@stock-service {POS} {IP-DISABLED} invalid-now: 192.168.57.103:8020@DEFAULT, region: unknown, msg: tcp:unable2connect:Connection refused
+
+2021-11-05 11:23:44,123 INFO DEFAULT_GROUP@@order-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.57.103:8010:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-11-05 11:23:44,124 INFO [IP-UPDATED] namespace: 9c1f94ca-8cd4-49d8-b929-e3970c15bad3, service: DEFAULT_GROUP@@order-service, ips: 192.168.57.103:8010_true,192.168.57.101:8010_false,
+
+2021-11-05 11:23:44,615 INFO serviceName: DEFAULT_GROUP@@order-service {OTHER} {IP-ENABLED} pre-valid: 192.168.57.103:8010@DEFAULT in 1, msg: tcp:ok+
+
+2021-11-05 11:23:49,345 INFO [IP-UPDATED] namespace: 9c1f94ca-8cd4-49d8-b929-e3970c15bad3, service: DEFAULT_GROUP@@stock-service, ips: 192.168.57.103:8020_false,192.168.57.101:8020_false,
+
+2021-11-05 11:23:49,623 INFO serviceName: DEFAULT_GROUP@@order-service {OTHER} {IP-ENABLED} pre-valid: 192.168.57.103:8010@DEFAULT in 2, msg: tcp:ok+
+
+2021-11-05 11:23:51,619 INFO serviceName: DEFAULT_GROUP@@stock-service {OTHER} {IP-ENABLED} pre-valid: 192.168.57.103:8020@DEFAULT in 1, msg: tcp:ok+
+
+2021-11-05 11:23:53,680 INFO serviceName: DEFAULT_GROUP@@order-service {POS} {IP-ENABLED} valid: 192.168.57.103:8010@DEFAULT, region: unknown, msg: tcp:ok+
+
+2021-11-05 11:23:56,621 INFO serviceName: DEFAULT_GROUP@@stock-service {OTHER} {IP-ENABLED} pre-valid: 192.168.57.103:8020@DEFAULT in 2, msg: tcp:ok+
+
+2021-11-05 11:24:01,314 INFO serviceName: DEFAULT_GROUP@@stock-service {POS} {IP-ENABLED} valid: 192.168.57.103:8020@DEFAULT, region: unknown, msg: tcp:ok+
+
+2021-11-05 11:25:04,808 INFO [IP-UPDATED] namespace: 9c1f94ca-8cd4-49d8-b929-e3970c15bad3, service: DEFAULT_GROUP@@order-service, ips: 192.168.57.103:8010_true,192.168.57.101:8010_false,
+
+2021-11-05 11:25:06,840 INFO serviceName: DEFAULT_GROUP@@order-service {POS} {IP-DISABLED} invalid-now: 192.168.57.103:8010@DEFAULT, region: unknown, msg: tcp:unable2connect:Connection refused
+
+2021-11-05 11:25:19,530 INFO [IP-UPDATED] namespace: 9c1f94ca-8cd4-49d8-b929-e3970c15bad3, service: DEFAULT_GROUP@@order-service, ips: 192.168.57.103:8010_false,192.168.57.101:8010_false,
+
+2021-11-05 11:25:22,818 INFO serviceName: DEFAULT_GROUP@@order-service {OTHER} {IP-ENABLED} pre-valid: 192.168.57.103:8010@DEFAULT in 1, msg: tcp:ok+
+
+2021-11-05 11:25:27,828 INFO serviceName: DEFAULT_GROUP@@order-service {OTHER} {IP-ENABLED} pre-valid: 192.168.57.103:8010@DEFAULT in 2, msg: tcp:ok+
+
+2021-11-05 11:25:32,142 INFO serviceName: DEFAULT_GROUP@@order-service {POS} {IP-ENABLED} valid: 192.168.57.103:8010@DEFAULT, region: unknown, msg: tcp:ok+
+
+2021-11-05 12:02:46,073 INFO {POS} {IP-DISABLED} valid: 192.168.57.103:8091@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1636084626932
+
+2021-11-05 12:02:46,173 INFO service: SEATA_GROUP@@seata-server {POS} {IP-ENABLED} valid: 192.168.57.103:8091@default, region: unknown, msg: client beat ok
+
+2021-11-05 12:02:46,295 INFO SEATA_GROUP@@seata-server {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [192.168.57.103:8091:unknown:default_1.0_true_false_default]
+
+2021-11-05 12:02:46,297 INFO [IP-UPDATED] namespace: 9c1f94ca-8cd4-49d8-b929-e3970c15bad3, service: SEATA_GROUP@@seata-server, ips: 
+
+2021-11-05 12:02:51,237 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [192.168.57.103:8091:unknown:default_1.0_true_false_default]
+
+2021-11-05 12:02:51,239 INFO [IP-UPDATED] namespace: 9c1f94ca-8cd4-49d8-b929-e3970c15bad3, service: SEATA_GROUP@@seata-server, ips: 192.168.57.103:8091_true,
+
+2021-11-05 12:56:46,760 INFO {POS} {IP-DISABLED} valid: 192.168.57.103:8091@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1636087206450
+
+2021-11-05 12:56:46,829 INFO SEATA_GROUP@@seata-server {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [192.168.57.103:8091:unknown:default_1.0_false_false_default]
+
+2021-11-05 12:56:46,830 INFO [IP-UPDATED] namespace: 9c1f94ca-8cd4-49d8-b929-e3970c15bad3, service: SEATA_GROUP@@seata-server, ips: 
+
+2021-11-05 12:56:48,120 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [192.168.57.103:8091:unknown:default_1.0_true_false_default]
+
+2021-11-05 12:56:48,123 INFO [IP-UPDATED] namespace: 9c1f94ca-8cd4-49d8-b929-e3970c15bad3, service: SEATA_GROUP@@seata-server, ips: 192.168.57.103:8091_true,
+
+2021-11-05 12:59:54,788 INFO {POS} {IP-DISABLED} valid: 192.168.57.103:8091@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1636088208112
+
+2021-11-05 12:59:54,832 INFO SEATA_GROUP@@seata-server {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [192.168.57.103:8091:unknown:default_1.0_false_false_default]
+
+2021-11-05 12:59:54,832 INFO [IP-UPDATED] namespace: 9c1f94ca-8cd4-49d8-b929-e3970c15bad3, service: SEATA_GROUP@@seata-server, ips: 
+
+2021-11-05 12:59:56,160 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [192.168.57.103:8091:unknown:default_1.0_true_false_default]
+
+2021-11-05 12:59:56,160 INFO [IP-UPDATED] namespace: 9c1f94ca-8cd4-49d8-b929-e3970c15bad3, service: SEATA_GROUP@@seata-server, ips: 192.168.57.103:8091_true,
+
+2021-11-05 13:02:06,988 INFO [IP-UPDATED] namespace: 9c1f94ca-8cd4-49d8-b929-e3970c15bad3, service: SEATA_GROUP@@seata-server, ips: 192.168.57.103:8091_true,
+
+2021-11-05 13:02:49,749 INFO SEATA_GROUP@@seata-server {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [192.168.57.103:8091:unknown:default_1.0_true_false_default]
+
+2021-11-05 13:02:49,750 INFO [IP-UPDATED] namespace: 9c1f94ca-8cd4-49d8-b929-e3970c15bad3, service: SEATA_GROUP@@seata-server, ips: 
+
+2021-11-05 13:47:06,672 INFO serviceName: DEFAULT_GROUP@@order-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.57.103:8010@DEFAULT in 1, msg: tcp:error:Network is unreachable
+
+2021-11-05 13:47:06,777 INFO serviceName: DEFAULT_GROUP@@stock-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.57.103:8020@DEFAULT in 1, msg: tcp:timeout
+
+2021-11-05 13:47:08,303 INFO serviceName: DEFAULT_GROUP@@stock-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.57.103:8020@DEFAULT in 2, msg: tcp:error:Network is unreachable
+
+2021-11-05 13:47:08,697 INFO serviceName: DEFAULT_GROUP@@order-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.57.103:8010@DEFAULT in 2, msg: tcp:error:Network is unreachable
+
+2021-11-05 13:47:11,779 INFO serviceName: DEFAULT_GROUP@@stock-service {POS} {IP-DISABLED} invalid: 192.168.57.103:8020@DEFAULT, region: unknown, msg: tcp:error:Network is unreachable
+
+2021-11-05 13:47:12,032 INFO serviceName: DEFAULT_GROUP@@order-service {POS} {IP-DISABLED} invalid: 192.168.57.103:8010@DEFAULT, region: unknown, msg: tcp:error:Network is unreachable
+
+2021-11-05 17:04:57,792 INFO [IP-UPDATED] namespace: 9c1f94ca-8cd4-49d8-b929-e3970c15bad3, service: DEFAULT_GROUP@@stock-service, ips: 192.168.57.103:8020_false,192.168.57.101:8020_false,
+
+2021-11-05 17:05:07,370 INFO [IP-UPDATED] namespace: 9c1f94ca-8cd4-49d8-b929-e3970c15bad3, service: DEFAULT_GROUP@@order-service, ips: 192.168.57.103:8010_false,192.168.57.101:8010_false,
+
