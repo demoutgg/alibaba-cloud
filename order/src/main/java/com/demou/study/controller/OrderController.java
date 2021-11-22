@@ -37,14 +37,7 @@ public class OrderController {
         String reduct = stockFeignService.reduct(id);
         System.out.println(reduct);
         //抛出异常
-        int i = 1 / 0;
-        return "1";
-    }
-
-    public static void main(String[] args) {
-        StringBuffer sb = new StringBuffer();
-        sb.append("123"+"\n"+"456");
-        System.out.println(sb.toString());
+        return reduct;
     }
 
 }

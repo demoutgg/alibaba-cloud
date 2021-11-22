@@ -56,7 +56,7 @@ mybatis:
 #spring 日志级别默认为info 修改feign的日志级别
 logging:
   level:
-    com.demou.study.config: debug
+    com.demou.study.*: debug
 
 seata:
   registry:
