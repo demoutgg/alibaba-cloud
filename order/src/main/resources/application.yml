@@ -67,6 +67,7 @@ seata:
       password: nacos
       group: SEATA_GROUP
       namespace: 9c1f94ca-8cd4-49d8-b929-e3970c15bad3
+      application: seata-server
   config:
     type: nacos
     nacos:

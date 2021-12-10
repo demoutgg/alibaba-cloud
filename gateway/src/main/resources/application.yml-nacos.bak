@@ -8,13 +8,14 @@ spring:
     gateway:
       #路由配置
       routes:
-        - id: order_route #路由的唯一标识，路由到order
+        - id: order_ser #路由的唯一标识，路由到order
           uri: lb://order-service #需要转发的地址
           #断言规则 用于路由规则
           predicates:
-            - Path=/order/**
-          #filters:
-           # - StripPrefix=1 #转发之前去掉第一层路径 http://ocalhost:8010/order/
+            - Path=/order-service/**
+            # htto://localhost:8088/order-service/order/add 路由到 http://ocalhost:8010/order-service/order/add
+          filters:
+            - StripPrefix=1 #转发之前去掉第一层路径 http://ocalhost:8010/order/
     #集成nacos
     nacos:
       discovery:
