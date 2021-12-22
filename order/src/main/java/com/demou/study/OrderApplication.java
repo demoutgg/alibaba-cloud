@@ -8,7 +8,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
  * @author：lyx
- * @date: 2021/11/3 12:04 上午 测试
+ * @date: 2021/11/3 12:04 上午 测试2
  * @version: 1.0
  */
 @SpringBootApplication
