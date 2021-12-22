@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.time.ZonedDateTime;
+import java.util.UUID;
+
 /**
  * @author：lyx
  * @date: 2021/11/3 9:25 上午
@@ -28,23 +31,16 @@ public class OrderController {
     public String add(@PathVariable int id) throws ClassNotFoundException {
         System.out.println("下单操作");
         Order order = new Order();
-        order.setOrderId(id + "");
+        order.setOrderId(UUID.randomUUID().toString().replaceAll("-",""));
         order.setProdId(1);
-        order.setRemark("lyx test 第" + id + "次。");
+        order.setRemark("lyx test "+System.currentTimeMillis());
         //插入订单
         orderService.insert(order);
         //调用微服务进行库存删减
         String reduct = stockFeignService.reduct(id);
         System.out.println(reduct);
         //抛出异常
-        int i = 1 / 0;
-        return "1";
-    }
-
-    public static void main(String[] args) {
-        StringBuffer sb = new StringBuffer();
-        sb.append("123"+"\n"+"456");
-        System.out.println(sb.toString());
+        return reduct;
     }
 
 }

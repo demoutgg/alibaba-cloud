@@ -56,7 +56,7 @@ mybatis:
 #spring 日志级别默认为info 修改feign的日志级别
 logging:
   level:
-    com.demou.study.config: debug
+    com.demou.study.*: debug
 
 seata:
   registry:
@@ -67,6 +67,7 @@ seata:
       password: nacos
       group: SEATA_GROUP
       namespace: 9c1f94ca-8cd4-49d8-b929-e3970c15bad3
+      application: seata-server
   config:
     type: nacos
     nacos:

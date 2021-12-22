@@ -56,9 +56,7 @@ mybatis:
 #showSql
 logging:
   level:
-    com:
-      example:
-        mapper: debug
+    com.demou.study.*: debug
 
 seata:
   registry:
